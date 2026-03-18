@@ -122,6 +122,7 @@ return true;
                 String input = sc.next();
                 System.out.println("Compressed: " + compressor(input));
             } else if(command.equalsIgnoreCase("exit")){
+                System.out.println("thanks for using");
                 System.out.println("Exiting...");
                 break;
             } else {
